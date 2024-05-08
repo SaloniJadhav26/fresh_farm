@@ -1,0 +1,553 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fresh-farm</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--font awsome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--custome css file link-->
+    <link rel="stylesheet" href="stylee.css">
+    
+</head>
+<body>
+     <!--navbar-->
+     
+     <header class="header">
+    
+        
+         <img src="./imagess/logo.jpg" alt="" width="150" height="150">
+
+         <nav class=navbar>
+            
+            <!--nav bar-->
+
+            <a href="#home">HOME</a>
+            <a href="#features">FEATURES</a>
+            <a href="#products">PRODUCTS</a>
+            <a href="#categories">CATEGORIES</a>
+            <a href="#review">REVIEW</a>
+            <a href="#bolg">BLOG</a>
+         </nav>
+
+         <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div> 
+            <div class="fas fa-shopping-cart" id="shopping-cart-btn"></div>    
+            <div class="fas fa-user" id="login-btn"></div>
+
+            <!--navbar end-->
+
+            <!--search-->
+
+            <form action="" class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label> 
+            </form>
+
+            <!--search end-->
+            
+            <!--login-->
+
+        <form action="" class="login-form" id="login-form">
+           <h3>login now</h3>
+           <input type="email" placeholder="Enter your email" class="box">
+           <input type="password" placeholder="Enter your password" class="box">
+           <p>forget your password<a href="#">click here</a></p>
+           <p>Dont have an account<a href="signin.html">create now</a></p>
+           <input type="submit" value="login now" class="btn">
+        </form>
+
+        <!--login end-->
+    </header>
+            <!--home selection starts-->
+
+    <section class="home" id="home">
+
+       <div class="content">
+        <h3>100% Fresh and <span>Organic</span> products </h3>
+        <p>Welcome to Our Vegetable Market! Explore Freshness.</p>
+        <a href="#" class="btn">shop now</a>
+       </div>
+    
+    </section>
+    
+    
+    <!--home selection ends-->
+
+ <!--features section starts-->
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./imagess/th (16).jpeg" alt="">
+                <h3> fresh & organic</h3>   
+                <p>Farm-fresh produce, organically grown.</p>
+                <a href="#categories" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="./imagess/delivery.png" alt="">
+                <h3> free delivery</h3>   
+                <p>Free delivery on first 3 orders </p>
+                <a href="payment.html" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="./imagess/th (18).jpeg" alt="">
+                <h3> easy payment</h3>   
+                <p>Seamless payments for hassle-free shopping</p>
+                <a href="payment.html" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+  <!--features section ends-->
+
+ <!-- product section starts-->
+   <section class="products" id="products">
+     <h1 class="heading">our <span>products</span></h1>
+     <div class="product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="./imagess/orange.jpeg" alt="">
+                <h3>Oranges</h3>   
+                <div class="price">&#8377;60/- <br>1kg</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+         </div>
+
+             <div class="swiper-slide box">
+                <img src="./imagess/onion.avif" alt="">
+                <h3>Onion</h3>   
+                <div class="price">&#8377;40/-<br>1kg</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+             </div>
+             <div class="swiper-slide box">
+                <img src="./imagess/milk-bottle-2740848_640.jpg" alt="">
+                <h3>Milk</h3>   
+                <div class="price">&#8377;27/- <br>500ml</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+             </div>
+
+             <div class="swiper-slide box">
+                <img src="./imagess/watermelon.avif" alt="">
+                <h3>watermelon</h3>   
+                <div class="price">&#8377;60/- <br>1kg</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+             </div>
+             <div class="swiper-slide box">
+                <img src="./imagess/cabbage.jpeg" alt="">
+                <h3>Cabbage</h3>   
+                <div class="price">&#8377;40/- <br>1kg</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+             </div>
+        </div>
+     </div>
+
+     <div class="product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="./imagess/potato.jpeg" alt="">
+                <h3>Potato</h3>   
+                <div class="price">&#8377;40/-<br>1kg</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+         </div>
+
+            
+         <div class="swiper-slide box">
+            <img src="./imagess/ghee.jpeg" alt="">
+            <h3>Ghee</h3>   
+            <div class="price">&#8377;120/-<br>200ml</div>      
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>  
+            <a href="#" class="btn">add to cart</a>
+         </div>
+             <div class="swiper-slide box">
+                <img src="./imagess/th (5).jpeg" alt="">
+                <h3>Apple</h3>   
+                <div class="price">&#8377;100/-<br>1kg</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+             </div>
+             <div class="swiper-slide box">
+                <img src="./imagess/cucumber.jpeg" alt="">
+                <h3>Cucumber</h3>   
+                <div class="price">&#8377;40/-<br>1kg</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+             </div>
+             <div class="swiper-slide box">
+                <img src="./imagess/lemon.webp" alt="">
+                <h3>Lemon</h3>   
+                <div class="price">&#8377;10/- <br>1pc</div>      
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">add to cart</a>
+             </div>
+        </div>
+     </div>
+   </section>
+ <!-- product section ends-->
+ 
+ <!--categaries selection starts-->
+ <section class="categories" id="categories">
+    <h1 class="heading">product <span>caterories</span></h1>
+    <div class="box-container">
+            <div class="box">
+            <img src="./imagess/vegitables01.jpeg" alt="">
+            <h3>vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#products" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="./imagess/fruits01.jpeg" alt="">
+            <h3>fruits</h3>
+            <p>upto 45% off</p>
+            <a href="#products" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="./imagess/dairy.jpeg" alt="">
+            <h3>dairy products</h3>
+            <p>upto 10% off</p>
+            <a href="#products" class="btn">shop now</a>
+        </div>
+     </div>
+ </section>
+
+  <!--categaries selection ends-->
+
+  <!--review section starts-->
+  <section class="review" id="review">
+    <h1 class="heading">customer's<span>review</span></h1>
+    <div class="review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+            <img src="./imagess/person1.jpg" alt="">
+            <p>Love the variety of fruits and vegetables available. It's like a trip to the farmer's market without leaving my home!</p>
+            <h3>Raj Jain</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="./imagess/person 2.jpeg" alt="">
+            <p>My family and I have been eating healthier since we started shopping here. The selection of organic options is fantastic.</p>
+            <h3>Radhika Mane</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="./imagess/person3.jpg" alt="">
+            <p>The dairy products are always top-notch. I especially love their selection of cheeses and yogurts.</p>
+            <h3>Dyana Joshi</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="./imagess/person-01.jpg" alt="">
+            <p>Overall, a great experience shopping here. I highly recommend it to anyone.</p>
+            <h3>raghav Dubey</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</div>
+  </section>
+    <!--review section ends-->
+
+<!--blog-->
+
+<section class="blog" id="bolg">
+    <h1 class="heading">our<span>blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="imagess/blog-vegitables.webp"alt="">
+        <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>by user</a>
+                <a href="#"><i class="fas fa-calendar"></i>21 april 2023</a>
+            </div>
+            <h3>Fresh Vegetables</h3>
+            <p>We offer a wide selection of locally sourced, organically grown vegetables to bring health and flavor to your meals. 
+                From crispy greens to vibrant peppers and juicy tomatoes, our produce is hand-picked for freshness and quality.
+                 With easy online ordering and convenient delivery options, enjoying farm-fresh veggies has never been easier. 
+                 Join us in supporting sustainable agriculture and nourishing your body with nature's bounty. Shop now and taste the difference</p>
+                 <a href="#" class="btn">read more</a>
+        </div>
+        </div>
+
+        <div class="box">
+            <img src="imagess/fruits-01.jpg"alt="">
+        <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fas fa-user"></i> By user</a>
+                <a href="#"><i class="fas fa-calendar"></i> 15 september 2023</a>
+            </div>
+            <h3>Fresh fruits</h3>
+            <p>Discover a colorful array of locally sourced, premium fruits bursting with flavor and nutrients.
+                 From succulent berries to tropical delights and crisp apples, our selection is handpicked for peak ripeness and taste. 
+                 With easy online ordering and prompt delivery, enjoying nature's bounty has never been more convenient.
+                 Join us in savoring the goodness of fresh fruits while supporting local growers and promoting a healthy lifestyle. 
+                 Shop now and indulge in nature's sweetness</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        </div>
+
+        <div class="box">
+            <img src="imagess/dairy pro.jpeg"alt="">
+        <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>by user</a>
+                <a href="#"><i class="fas fa-calendar"></i>26 december 2023</a>
+            </div>
+            <h3>Fresh Dairy Products</h3>
+            <p>Explore a range of farm-fresh dairy delights, from creamy cheeses to velvety yogurts and rich, wholesome milk. 
+                Sourced from local farms committed to quality and sustainability, our dairy products are a testament to freshness and flavor.
+                 With convenient online ordering and swift delivery, elevating your culinary creations with premium dairy has never been easier. 
+                 Join us in celebrating the goodness of dairy while supporting local producers and nourishing your body with wholesome goodness. 
+                Shop now and experience the difference of truly fresh dairy</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--block ends-->
+
+<!--footer section starts-->
+<footer>
+
+    <div class="footer-opt">
+        <div>
+            <div class="footer-head">
+                <h3>contact info</h3>
+        </div>
+
+        <div class="footer-list">
+                <ul>
+                    <a href="#">
+                        <li>contact number</li>
+                            <a href="#" class="links"><i class="fas fa-phone"></i>+913245227383</a>
+                            <a href="#" class="links"><i class="fas fa-phone"></i>+913245227382</a>
+                    </a>
+                    <a href="#">
+                        <li>email</li>
+                        <a href="#" class="links"><i class="fas fa-envelop"><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S2081050561%3A1710908160370541&theme=mn&ddm=0"></i>fresh.farm@gmain.com</a></a>
+                    </a>
+                    <a href="#">
+                        <li>address</li>
+                        <a href="#" class="links"><i class="fas fa-map-maker-alt"><a href="https://www.google.com/maps/@18.4445666,73.8102812,15z?entry=ttu"></i>Nagar road, Pune, India, 412015</a> </a></li>
+                    </a>
+                </ul>
+        </div>
+    </div>
+
+        <div>
+                <div class="footer-head">
+                    <h3>quick link</h3>
+                </div>
+
+                <div class="footer-list">
+                    <ul>
+                        <a href="#">
+                          <li><a href="#home" class="links"><i class="fas fa-arrow-right"></i>home</a></li>
+                        </a>
+                        <a href="#">
+                            <li> <a href="#features" class="links"><i class="fas fa-arrow-right"></i>features</a></li>
+                          </a>
+                          <a href="#">
+                            <li><a href="#products" class="links"><i class="fas fa-arrow-right"></i>products</a></li>
+                          </a>
+                          <a href="#">
+                            <li><a href="#categories" class="links"><i class="fas fa-arrow-right"></i>categories</a></li>
+                          </a>
+                          <a href="#">
+                            <li><a href="#review" class="links"><i class="fas fa-arrow-right"></i>review</a></li>
+                          </a>
+                          <a href="#">
+                            <li><a href="#bolg" class="links"><i class="fas fa-arrow-right"></i>blog</a></li>
+                          </a>
+                    </ul>
+                </div>
+        </div>
+
+            <div>
+                <div class="footer-head">
+                    <h3>social media</h3>
+                    <img  class="icon arrow"  src="./images/angle-down.svg" alt="">
+                </div>
+
+                <div class="footer-list">
+                    <ul>
+                        <a href="#">
+                          <li>facebook</li><a href="#" class="fab fa-facebook-f"><a href="https://www.facebook.com/"></a></a>
+                        </a>
+                        <a href="#">
+                            <li>instagram</li><a href="#" class="fab fa-instagram"></a><a href="https://www.instagram.com/"></a></a>
+                          </a>
+                          <a href="#">
+                            <li>twitter</li><a href="#" class="fab fa-twitter"><a href="https://www.twitter.com/"></a></a>
+                          </a>
+                          <a href="#">
+                            <li>linkedin</li><a href="#" class="fab fa-linkedin"><a href="https://www.linkedin.com/"></a></a>
+                          </a>
+                          
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="footer-head">
+                    <h3>newsletter</h3>
+                </div>
+
+                <div class="footer-list">
+                    <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email">
+          <input type="submit" value="subscribe" class="btn">          
+                          
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="footer-head">
+                    <h3>paymant</h3>
+                </div>
+
+                <div class="footer-list">
+                    <ul>
+                        <a href="payment.html" class="btn"><img src="imagess/payment.jpeg" class="payment-img" alt=""></a>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+        <div class="footer-opt2">
+          <div class="social">
+            <a href="#">
+              <img class="icon" src="./images/spotify.svg" alt="">
+            </a>
+            <a href="#">
+              <img class="icon" src="./images/facebook.svg" alt="">
+            </a>
+            <a href="#">
+              <img class="icon" src="./images/pinterest.svg" alt="">
+            </a>
+          </div>
+
+          <div class="copy-desc">
+            <a href="#">Privacy Notice</a>
+            <a href="#">Term of use</a>
+            <a href="#">Do not share my Personal Information</a>
+            <a href="#">CA supply Chain Act</a>
+            <a href="#">Cookie Preferences</a>
+          </div>
+
+          <div class="copyright">
+            <h5>&copy;2023 fresh farm Company.All rights reserved by Us</h5>
+            
+          </div>
+        </div>
+     </footer>
+
+<!--footer section ends-->
+
+
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ 
+
+<!--custom js file link-->
+    <script src="app.js"></script>
+</body>
+</html>
